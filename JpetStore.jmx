@@ -1486,7 +1486,7 @@
             <sampleCount>true</sampleCount>
           </value>
         </objProp>
-        <stringProp name="filename">result/PetStore_Results_Error_File_${__time(hh:mm:ss - dd:MM:yyyy,)}.jtl</stringProp>
+        <stringProp name="filename">results/PetStore_Results_Error_File_${__time(hh:mm:ss - dd:MM:yyyy,)}.jtl</stringProp>
       </ResultCollector>
       <hashTree/>
       <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="true">
@@ -1523,7 +1523,7 @@
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename">result/PetStore_Results_agg_${__time(hh:mm:ss - dd:MM:yyyy,)}.jtl</stringProp>
+        <stringProp name="filename">results/PetStore_Results_agg_${__time(hh:mm:ss - dd:MM:yyyy,)}.jtl</stringProp>
       </ResultCollector>
       <hashTree/>
     </hashTree>
