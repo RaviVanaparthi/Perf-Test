@@ -1464,7 +1464,7 @@
           </hashTree>
         </hashTree>
         <ResultCollector guiclass="SimpleDataWriter" testclass="ResultCollector" testname="Simple Data Writer" enabled="true">
-          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <boolProp name="ResultCollector.error_logging">true</boolProp>
           <objProp>
             <name>saveConfig</name>
             <value class="SampleSaveConfiguration">
@@ -1500,7 +1500,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">results/PetStore_Results_Error_File_${__time(yyyyMMdd_HHmmss)}.jtl   </stringProp>
+          <stringProp name="filename">results/PetStore_Results_Error_File_${__time(HH:mm:ss--yyyyMMdd)}.jtl   </stringProp>
         </ResultCollector>
         <hashTree/>
       </hashTree>
