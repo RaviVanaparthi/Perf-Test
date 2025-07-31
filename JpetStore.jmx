@@ -23,13 +23,13 @@
             <stringProp name="Argument.value">https</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
-          <elementProp name="P_Username" elementType="Argument">
-            <stringProp name="Argument.name">P_Username</stringProp>
+          <elementProp name="#P_Username" elementType="Argument">
+            <stringProp name="Argument.name">#P_Username</stringProp>
             <stringProp name="Argument.value">j2ee</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
-          <elementProp name="P_Password" elementType="Argument">
-            <stringProp name="Argument.name">P_Password</stringProp>
+          <elementProp name="#P_Password" elementType="Argument">
+            <stringProp name="Argument.name">#P_Password</stringProp>
             <stringProp name="Argument.value">j2ee</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
@@ -547,7 +547,7 @@
             <hashTree/>
           </hashTree>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="S01_JPetStore_TC03_SelectPet" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="S01_JPetStore_TC03_SelectPet - ${P_Username}" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">true</boolProp>
         </TransactionController>
@@ -1465,7 +1465,7 @@
         </hashTree>
       </hashTree>
       <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="false">
-        <boolProp name="ResultCollector.error_logging">true</boolProp>
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
           <value class="SampleSaveConfiguration">
