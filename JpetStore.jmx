@@ -1500,7 +1500,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">results/PetStore_Results_Error_File_${__time(HH:mm:ss--yyyyMMdd)}.jtl   </stringProp>
+          <stringProp name="filename">results/PetStore_Results_Error_File_${__time(yyyyMMdd_HHmmss)}.jtl</stringProp>
         </ResultCollector>
         <hashTree/>
       </hashTree>
